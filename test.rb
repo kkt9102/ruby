@@ -313,3 +313,34 @@ print "a = b...", (a = b), "\n"
 (b != 0) && (b != 1)        # b≠0 이고 b≠1 이 아니다
 
 # 연산자 우선선위!
+
+# 지역변수
+a = "지역변수"
+
+# 전역변수
+$b = "전역변수"
+
+# 인스턴스 변수
+@c = '인스턴스 변수'
+
+# 클래스 변수
+@@d = "클래스 변수"
+
+# 조건문!
+#if 와 unless 는 서로 반대라고 생각하자!
+num = 2 
+if num%2 == 0
+    puts"evne"
+else
+    puts"odd"
+end
+#결과값 = even
+num = 2 
+unless num%2 == 0
+    puts"evne"
+else
+    puts"odd"
+end
+#결과값 = odd
+
+
